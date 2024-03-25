@@ -1,0 +1,14 @@
+.titulo {
+    font-family: sans-serif; /*Define a fonte do texto*/
+    color: rgb(0, 0, 0); /*Define a cor do texto*/
+    background-color: rgb(7, 121, 106); /*Cor do fundo*/
+    width: fit-content; /*Define a largura, o "fit-content" vai encaixar a largura ao contúdo*/
+    font-size: 20pt; /*Define o tamanho da fonte*/
+}
+
+.titulo:hover /*:hover é uma pseudoclasse que define o estade de mouse sobre o elemento*/{
+    color: rgb(3, 3, 3);
+    background-color: brown;
+    font-size: 25pt;
+    transition: all 300ms ease-in-out; /*Cria uma animação de transição*/
+}
